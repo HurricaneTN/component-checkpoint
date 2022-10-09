@@ -1,4 +1,5 @@
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Address from "./Component/Profile/Address";
 import FullName from "./Component/Profile/FullName";
 import { Photo } from "./Component/Profile/ProfilePhoto";
@@ -15,7 +16,7 @@ function App() {
           <Card.Text>
             <Address />
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <Button variant="primary">Visit My Profile</Button>
         </Card.Body>
       </Card>
     </div>
